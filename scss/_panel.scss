@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    width: 900px;
+
+    border: 3px solid rgba(12, 99, 175, 1);
+    border-radius: 50px;
+
+    background-color: rgba(238, 238, 238, 0.329);
+    backdrop-filter: blur(7px) saturate(90%);
+}
+
+.regionTitle{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+}
+
+.btn{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgba(12, 99, 175, 1);
+    margin-bottom: 20px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+    border: 3px solid rgb(108, 163, 211);
+    background-color: rgb(115, 171, 221);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 3px solid rgba(12, 99, 175, 1);
+    margin-bottom: 20px;
+}
+
+.input{
+    font-size: 20px;
+    margin: 40px;
+}

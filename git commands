@@ -1,0 +1,5 @@
+git init - inicjalizacja repozytorium
+
+git add . - dodajemy wszystkie pliki do repozytorium
+
+git status - sprawdzamy status plików w repozytorium
